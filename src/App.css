@@ -1,0 +1,28 @@
+.App {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  text-align: center;
+}
+
+#headings {
+  width: 50%;
+  height: 100vh;
+  border: 1px solid white;
+  background-color: #e90052;
+}
+
+h1 {
+  padding: 5%;
+  margin-top: 0;
+  color: white;
+  background-color: #38003c;
+  border-bottom: 1px solid white;
+}
+
+#editor, #preview {
+  background-color: white;
+  margin: auto;
+  width: 70%;
+  height: 70%;
+}
